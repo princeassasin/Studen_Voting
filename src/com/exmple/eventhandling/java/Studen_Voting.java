@@ -1,20 +1,17 @@
 	package com.exmple.eventhandling.java;
 	
-	import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
-	//import java.util.Set;
-	
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;	
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-	
-
 import java.io.InputStreamReader;
 
-	import javax.swing.JButton;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -83,7 +80,6 @@ import javax.swing.JTextField;
 		
 		@Override
 		public void focusGained(FocusEvent e) {
-			// TODO Auto-generated method stub
 			if (e.getSource()==submit)
 			{
 				
